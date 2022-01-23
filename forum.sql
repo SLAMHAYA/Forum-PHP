@@ -92,7 +92,7 @@ CREATE TABLE IF NOT EXISTS `f_topics` (
   `id_createur` int(11) NOT NULL,
   `sujet` text NOT NULL,
   `contenu` text NOT NULL,
-  `date-heure-creation` datetime NOT NULL,
+  `date_heure_creation` datetime NOT NULL,
   `resolu` tinyint(1) NOT NULL,
   `notif_createur` tinyint(1) NOT NULL,
   PRIMARY KEY (`id`)
